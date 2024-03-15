@@ -13,3 +13,11 @@ how to run
 npm run dev 
 
 Deployment Link - https://main--stellar-dragon-416791.netlify.app/
+Render Link - https://techkender-backend.onrender.com/
+
+
+Github Link 
+
+
+FrontEnd - https://github.com/Jayavenkate/techkendr-task  
+backend - https://github.com/Jayavenkate/techkender-backend
