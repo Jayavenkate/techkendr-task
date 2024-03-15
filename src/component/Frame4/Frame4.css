@@ -1,0 +1,39 @@
+.div-contaimer {
+  max-width: 1200px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: left;
+  padding-left: 40px;
+}
+.div-contaimer img {
+  width: 320px;
+  height: 320px;
+}
+.element-div {
+  max-width: 700px;
+}
+.home-element {
+  font-size: 48px;
+  font-weight: 600;
+  color: #071a45;
+  font-family: Lato;
+  line-height: 57.6px;
+  margin: 0;
+}
+.description-element {
+  font-size: 20px;
+  font-weight: 400;
+  color: #071a45;
+  font-family: Lato;
+  line-height: 24px;
+  max-width: 600px;
+}
+.link {
+  color: #071a45;
+  font-size: 20px;
+  font-weight: 400;
+
+  font-family: Lato;
+  line-height: 24px;
+}

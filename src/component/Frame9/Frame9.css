@@ -1,0 +1,39 @@
+.frame9-container {
+  margin-top: 50px;
+  height: 862px;
+  max-width: 1439px;
+  background-image: url("/image7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.pelement {
+  font-size: 72px;
+  font-weight: 800;
+  color: #071a45;
+  font-family: Lato;
+  line-height: 80px;
+  width: 971px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.span-element {
+  font-size: 72px;
+  font-weight: 400;
+  color: #071a45;
+  font-family: Lato;
+  line-height: 80px;
+
+  margin: 0 auto;
+  font-style: italic;
+}
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #071a45;
+  font-family: Lato;
+  line-height: 26px;
+
+  margin: 20px auto;
+  width: 800px;
+}

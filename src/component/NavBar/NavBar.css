@@ -1,0 +1,16 @@
+.head-1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #071a45;
+  font-family: Lato;
+  padding-right: 5px;
+  line-height: 48px;
+}
+.head-2 {
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Lato;
+  color: #071a45;
+}
+

@@ -1,0 +1,40 @@
+.typography {
+  font-size: 62px;
+  font-weight: 800;
+  color: #071a45;
+  font-family: Lato;
+  line-height: 80px;
+  text-align: center;
+  margin: 0;
+}
+.box-container {
+  max-width: 1234px;
+  padding-top: 30px;
+  text-align: center;
+}
+.span-typograpy {
+  font-size: 72px;
+  font-weight: 700;
+  color: #2c8fb5;
+  font-family: Lato;
+  line-height: 80px;
+
+  font-style: italic;
+}
+.description{
+    font-size: 20px;
+  font-weight: 400;
+  color: #071A45;
+  font-family: Lato;
+  line-height: 24px;
+
+
+}
+.button-div{
+    width: 544px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content:center ;
+}
