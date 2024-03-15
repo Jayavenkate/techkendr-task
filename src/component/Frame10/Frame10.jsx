@@ -43,7 +43,7 @@ export const Frame10 = () => {
 
     const handleClick = async () => {
         try {
-            const response = await axios.post("http://localhost:4000/create", {
+            const response = await axios.post("https://techkender-backend.onrender.com/create", {
                 email,
             });
             setEmail("");

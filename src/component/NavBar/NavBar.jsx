@@ -2,16 +2,19 @@ import {
   AppBar,
   Box,
   Button,
+  IconButton,
   Toolbar,
   Typography,
   styled,
 } from "@mui/material";
 import "./NavBar.css";
+import MenuIcon from "@mui/icons-material/Menu";
 export const NavBar = () => {
   //styled component
   const AppBarColor = styled(AppBar)({
     backgroundColor: "#fff",
     boxShadow: "none",
+    flexGrow: 1,
   });
   const BoxDiv = styled(Box)({
     backgroundColor: "#071A45",
@@ -35,10 +38,13 @@ export const NavBar = () => {
     textTransform: "none",
     cursor: "pointer",
   });
-  const BoxSignButton = styled(Box)({
+  const BoxSignButton = styled(Box)(({ theme }) => ({
     display: "flex",
     gap: "24px",
-  });
+    [theme.breakpoints.down("md")]: {
+      display: "none",
+    },
+  }));
   const SignUpButton = styled(Button)({
     borderRadius: "40px",
     border: "1px solid #071A45",
@@ -67,6 +73,13 @@ export const NavBar = () => {
     },
   });
 
+  const MenuBox = styled(IconButton)(({ theme }) => ({
+    display: "none",
+    color: "#071A45",
+    [theme.breakpoints.down("md")]: {
+      display: "flex",
+    },
+  }));
   //values
   const navitem = ["Home", "About Us", "Property", "Services", "Contact"];
   return (
@@ -77,7 +90,10 @@ export const NavBar = () => {
             <span className="head-1">XYZ </span>
             <span className="head-2">INDUSTRIES</span>
           </Typography>
-          <Box sx={{ flexGrow: 1 }}>
+          <MenuBox>
+            <MenuIcon />
+          </MenuBox>
+          <Box sx={{ flexGrow: 1, display: { md: "flex", xs: "none" } }}>
             <BoxDiv>
               {navitem.map((item) => (
                 <BoxButton key={item}>{item}</BoxButton>
